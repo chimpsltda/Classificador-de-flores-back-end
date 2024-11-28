@@ -1,0 +1,37 @@
+{
+  "type": "service_account",
+  "project_id": "indentificador-de-flores-back",
+  "private_key_id": "f5458b86f9acc05fc61db8a8431775b06446adcf",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCnUNX5PP42whpX\nON0EjIXskJK6qTUpLVqe+1Ya7B7JoA7OLOu7ZiseMFY6psjrzppDDpjEJH9D8hFw\ncygWUYJf2acUvgAGtPpYRuxJPJJKm3zwAwVtqCdqE1hexG33VTdRTqZsYwtsE20f\nWCV96xoa3nccSWQyb7fqsbVYmy5XrkaElO7WcbZQ9zS9dkfk2QebS69EYYZKjWd+\nf2sTkU5Brxs5xqlD8gP3pVjMf2gNHMfCEd+AUZW+zwXOmwjWWU60p8oyqFDvInNb\njQi+q4WGuIu0NrXGNsCBJDigun5maG0wfyDM7CsOUEYM8+Ln6iTiQxMpwehZOsjP\nlGVWKT9fAgMBAAECggEAO6+/lTjn6vrVULYtShkjEWAFp+cC2tyeDkbU0afX189s\nWKp3sZNh4FQX/rZOyKgcKb3ES3xFliR9iiLacxPCsZTAYMri0YGwKNusIPglq83K\nBQje395zqQibprrmC6xvnmazQckXYwePDvZv8Xp0Bo/D5+hagQ+PiX65lZFON+KU\nTImTpBHixkv2WB1XstQo+Ifq+veLOq0rGQsIxhKTGjGpyqSWlJf2mPQ9w5EqUIfx\nx4yrZo1hgW7lybk30ogX5IHpz5oRfbqIkzeV6USBHiAr8O9TzYTqVDrrvzsCkpE8\ngKHo2TaWAu/frCwAVIKUXVxkozbUvfy86ZdqMqpZkQKBgQDkhaZxtxG18Hf2BX4/\nIxdZir4pH/m5StjXcOAa8hw/eGXV1TjjEjEZMWpU7h0agiFDDGT0lqjYvbygLfJA\nW4ALVUXrqjFFbIo4pmuASYrq0YWKPzB6IWPiBgxrUoJwg8enFFe0EezbAHZ+BonJ\n8F9XUlg0U4l/C1OWfzgzec0tiQKBgQC7byM41M+KM9tWofDf/Pb5zFi04MiTIC28\n5CGet7hjK2PKyEVyb5JBzkqfN+l1w/w/p1CqGOZacf6ppGSoPu5kW7zyp00xa9cc\noXDuGNYTDWX3XC0FT8c1f7YNNUQ+Zfx9g082NYXljHd/mezpYjUFphJr/12FeD3S\ntLPMC/xzpwKBgQCZHEsGycfeBP37IncRymssnV8HotrooRNkVcZxh2IRzJM+kBwL\nV/b5kDhUKy3owuOSTs2daww6G/YzxFUZdbT24u10FpXok+6QQkCotZ2T80nr9KaA\nTbrkh3Tuu1uWE1VDxsd0aMYvfcHmcm8DlD/s+8kJVic7rdUVcquvIZ6tMQKBgB2x\n8uObG7JqmtJz36StADf9PwSRJFXi4Dwv7H+n3cegZTQIXLBPqt1QIJRvGEa3ISy4\nhlgcj8o+izk3OVdKeRxfSGUtSlaNHkyD609dkfT8x23UJbHUvNvl+uLG0KQOJl2A\nQzl0a109zuThbx5el8XoVLzVfWya6ziJtn6aW4m7AoGAQ7gEDWxoFolieLpxwUv/\nsInYp7HIONazF68itQWvQ16TESc3nWJklTE9XHgUW8GaPMPzmoPdl2oEyCn7Q+eq\nhw5QV0TEjlA54lpVQtoIvLrBc25KR4Wb+5DDz5HN5kpCYDk6sQssC4I+nmp77+ib\nmSTdVGK8tuEzw36M9Z+8+Ts=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-lzhyc@indentificador-de-flores-back.iam.gserviceaccount.com",
+  "client_id": "106485503542438686850",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-lzhyc%40indentificador-de-flores-back.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com",
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "venv",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ]
+    },
+    {
+      "source": "flask_api",
+      "codebase": "code1",
+      "ignore": [
+        "venv",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ]
+    }
+  ]
+}
